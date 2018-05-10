@@ -1,1 +1,537 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+body {
+    padding-top: 70px;
+    background-color: rgba(245, 245, 245, 0.3);
+}
+.top-margen-fila {margin-top:10px;}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.margen-ppal {
+    padding-top: 50px;
+}
+
+.ancho-col div {
+    width: auto;
+    overflow-x: auto;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.setWidth {
+    max-width: auto;
+}
+
+.spinner:before { 
+    background-color: rgba(49, 37, 37, 0.2);
+    border-radius: 6px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    content: " ";
+}
+
+.container-full {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+div.show-image {
+    position: relative;
+    float:left;
+    margin:5px;
+}
+
+div.show-image:hover div.sombra {
+    opacity:0.7;
+}
+
+div.show-image:hover button {
+    display: inline-block;
+}
+div.show-image button {
+    position:inherit;
+    display:none;
+}
+
+div.show-image button.modificar {
+    top:0;
+    left:0%;
+}
+
+.ancho-var {
+    width: auto;
+    overflow-x: scroll;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.total-head {
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.total-head:hover {
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.4);
+}
+
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.st-sort-ascent:before{
+    content: '\25B2';
+  }
+
+  .st-sort-descent:before{
+    content: '\25BC';
+  }
+  
+.btn-circle {
+  width: 30px !important;
+  height: 30px !important;
+  text-align: center !important;
+  padding: 6px 0 !important;
+  font-size: 12px !important;
+  line-height: 1.428571429 !important;
+  border-radius: 15px !important;
+}
+
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+
+/*------------------------
+ Botones planos
+------------------------*/
+.btn-flat {
+    filter:progid:DXImageTransform.Microsoft.Gradient(enabled='false');
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-image:none;
+    border:0;
+    border-radius: 0px;
+}
+
+/*---------------------------------------------------------
+  Campos, modales, paneles sin radio en los bordes
+  .nav > li > a lo uso para quitar los bordes a los tabs
+-----------------------------------------------------------*/
+.alert, .modal-content, .form-control, .label, .btn, .nav > li > a {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px; 
+}
+
+.panel, .ui-select-choices {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+}
+
+td.uib-day > button.btn {
+    border: 0px !important;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+.row-bloqueado {
+    background-color: #c12e2a;
+}
+
+.footer-app {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.barra-oleada {
+    position: fixed;
+    right: 25px;
+    width: 100%;
+    z-index: 100;
+    margin-top: 10px;
+}
+
+.menu-con-margen {
+    margin-top:51px;
+    z-index: 50;
+}
+
+.menu-sin-margen {
+    margin-top:0px;
+    z-index: 50;
+}
+
+.animate.ng-enter {
+  transition:0.5s linear all;
+  opacity:0;
+}
+
+/* The finishing CSS styles for the enter animation */
+.animate.ng-enter.ng-enter-active {
+  opacity:1;
+}
+
+.animate.ng-leave {
+  transition:0.5s linear all;
+  opacity:1;
+}
+.animate.ng-leave.ng-leave-active {
+  opacity:0;
+}
+
+
+@media (min-width: 1200px) {
+  .modal-xl {
+    width: 90%;
+    max-width:1200px;
+  }
+}
+
+
+
+div.show-button {
+    position: absolute;
+    float:left;
+    margin:0px;
+}
+
+div.show-button:hover div.sombra {
+    opacity:0.7;
+}
+
+div.show-button:hover button {
+    display: inline-block;
+}
+div.show-button button {
+    position:inherit;
+    display:none;
+}
+
+div.show-button button.mostrar {
+    top:0;
+    left:0%;
+}
+
+input.form-pq {
+   height:30px;
+}
+
+.mini-card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: inline-block;
+    min-width: 5vw;
+    min-height: 3vh;
+    margin: 4px;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: inline-block;
+    min-width: 12vw;
+    min-height: 11vh;
+    margin: 5px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover, .mini-card, #card-version:hover {
+    box-shadow: 2px 4px 2px 2px rgba(0,0,0,0.4);
+}
+
+/* Add some padding inside the card container */
+.card-container {
+    padding: 10px 0px 5px;
+}
+
+.login-container {
+    padding: 25px;
+    background-color: rgb(255, 255, 255);
+    border: rgb(245,245,245) 2px solid;
+    box-shadow: 1px 1px 2px rgba(51,122,183,0.3);
+}
+
+.login-container-head {
+    padding: 10px 10px 10px ;
+    background-color: rgb(255, 255, 255);
+    border: rgb(255,255,255);
+    box-shadow: 1px 1px 2px rgba(51,122,183,0.3);
+}
+
+.login-container-foot {
+    padding: 25px 10px 10px ;
+    background-color: rgb(255,255,255);
+    border: rgb(255,255,255);
+    box-shadow: 1px 1px 2px rgba(51,122,183,0.3);
+}
+
+#card-version {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 1px 3px 0px 0px rgba(0,0,0,0.2);
+    transition: 0.7s;
+    width: 200px;
+    height: 50px;
+    top: 90vh;
+    left: -210px;
+    z-index: 2000;
+    position: fixed;
+    background-color: steelblue;
+    color: white;
+    cursor: pointer;
+}
+
+#card-version.active {
+    left: 10px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+.nav-gco {
+    z-index: 1031;
+    background-color: rgba(237, 237, 237, 1);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.nav-z-index-ppal {
+    z-index: 1032
+}
+
+/*---------------------------------------------------------------------------------
+    Creación de sub menú para facturación
+---------------------------------------------------------------------------------*/
+.navbar-submenu {
+  /*background-color: #ededed;*/
+  background-color: rgba(207, 207, 207, 0.9);
+  border-color: #c0c0c0;
+}
+.navbar-submenu .navbar-brand {
+  color: #000000;
+}
+.navbar-submenu .navbar-brand:hover,
+.navbar-submenu .navbar-brand:focus {
+  color: #ecdbff;
+}
+.navbar-submenu .navbar-text {
+  color: #000000;
+}
+.navbar-submenu .navbar-nav > li > a {
+  color: #000000;
+}
+.navbar-submenu .navbar-nav > li > a:hover,
+.navbar-submenu .navbar-nav > li > a:focus {
+  color: #ecdbff;
+}
+.navbar-submenu .navbar-nav > .active > a,
+.navbar-submenu .navbar-nav > .active > a:hover,
+.navbar-submenu .navbar-nav > .active > a:focus {
+  color: #ecdbff;
+  background-color: #ededed;
+}
+.navbar-submenu .navbar-nav > .open > a,
+.navbar-submenu .navbar-nav > .open > a:hover,
+.navbar-submenu .navbar-nav > .open > a:focus {
+  color: #ecdbff;
+  background-color: #ededed;
+}
+.navbar-submenu .navbar-toggle {
+  border-color: #d1d1d1;
+}
+.navbar-submenu .navbar-toggle:hover,
+.navbar-submenu .navbar-toggle:focus {
+  background-color: #ededed;
+}
+.navbar-submenu .navbar-toggle .icon-bar {
+  background-color: #000000;
+}
+.navbar-submenu .navbar-collapse,
+.navbar-submenu .navbar-form {
+  border-color: #000000;
+}
+.navbar-submenu .navbar-link {
+  color: #000000;
+}
+.navbar-submenu .navbar-link:hover {
+  color: #ecdbff;
+}
+
+@media (max-width: 767px) {
+  .navbar-submenu .navbar-nav .open .dropdown-menu > li > a {
+    color: #000000;
+  }
+  .navbar-submenu .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-submenu .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ecdbff;
+  }
+  .navbar-submenu .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-submenu .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-submenu .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ecdbff;
+    background-color: #ededed;
+  }
+}
+
+
+
+/*-----------------------------*/
+/*          Side bar           
+--------------------------------*/
+#sidebar-online {
+    width: 400px;
+    position: fixed;
+    top: 0%;
+    right: -400px;
+    height: 100vh;
+    z-index: 1900;
+    background: #fff;
+    /*color: #7386D5;*/
+    transition: all 0.3s;
+    overflow-y: auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar-online.active {
+    right: 0;
+}
+
+#dismiss {
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.overlay-online {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1899;
+    display: none;
+    top: 0px;
+    left: 0px;
+}
+
+#sidebar-online .sidebar-header {
+    padding: 10px;
+    background: #fafafa;
+    text-align: center;
+}
+
+#sidebar-online .sidebar-contenido {
+    padding: 5px;
+    z-index: 1901;
+}
+
+#sidebar-online ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar-online ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar-online ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar-online ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+  
+.my-drop-zone { 
+    border: dotted 2px lightgray;
+}
+
+.nv-file-over { border: dotted 3px blue; }
+
+.size-16{
+    font-size: 16px;
+}
+
+.size-15{
+    font-size: 15px;
+}
+
+.size-14{
+    font-size: 14px;
+}
+
+.size-13{
+    font-size: 13px;
+}
+
+.mb0{
+    margin-bottom: 0px;
+}
+
+.m0w95{
+    margin: 0 auto;
+    width: 95%;
+}
+
+.fhabsolute{
+    position: absolute; 
+    right: 5%;
+    top: 55%;
+}
+
+.border-native{
+    border-bottom: 2px solid #ddd;
+}
